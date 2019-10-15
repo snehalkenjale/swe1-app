@@ -3,3 +3,5 @@ gunicorn
 django-heroku
 black
 flake8
+coverage
+python-coveralls
