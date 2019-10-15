@@ -117,7 +117,7 @@ STATIC_ROOT = ''
 
 STATIC_URL = "/static/"
 
-STATICFILES_DIRS = (os.path.join('static'), )
+STATICFILES_DIRS = (os.path.join(BASE_DIR, '/polls/static'), )
 
 
 if "HOME" in os.environ and "/app" in os.environ["HOME"]:
